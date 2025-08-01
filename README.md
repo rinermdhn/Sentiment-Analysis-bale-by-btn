@@ -17,7 +17,7 @@
 ## Methodology
 ### Data Scraping
 The dataset consists of the latest **2,500 reviews** scraped from Google Play Store using `google_play_scraper`. Only reviews written in Indonesian and submitted between **October 2024 and April 2025** were included.
-Sentiment labels (positive or negative) were manually assigned based on the corresponding rating scores.
+Sentiment labels (positive or negative) were **manually assigned** based on the corresponding rating scores.
 - 1-3 → negative.
 - 4-5 → positive.
 
