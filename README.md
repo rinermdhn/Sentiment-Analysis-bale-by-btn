@@ -27,7 +27,7 @@ Sentiment labels (positive or negative) were **manually assigned** based on the 
 3. **Text Normalization**: Using a standardized dictionary, namely Kamus Alay (Colloquial Indonesian Lexicon), to normalize words into their standard forms.
 4. **Filtering**: Removing stopwords to retain only meaningful terms.
 
-In this project, three different types of data preprocessing were applied.
+In this project, **three** different types of data preprocessing were applied.
 1. **Full preprocessing**: Using all the preprocessing steps mentioned above, resulting in a total of 2,280 remaining reviews for further analysis.
 2. **Full preprocessing + custom stopwords**: Using all steps, with additional stopwords: aplikasi, aplikasinya, apk, bank, btn, bale, banget, kali, mobile, ya. This process left 2,347 reviews for further analysis.
 3. **Partial preprocessing**: Omitting case-folding and filtering, also left a total of 2,347 remaining reviews.
