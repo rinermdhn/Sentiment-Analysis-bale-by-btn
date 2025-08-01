@@ -1,8 +1,6 @@
-# Sentiment-Analysis-bale-by-btn
+# Sentiment-Analysis-balé-by-btn
 
-🏦 This project performs sentiment analysis on user reviews of the *balé by BTN* application, scraped from *Google Play Store* ... model IndoBERT untuk mengidentifikasi sentimen dalam ulasan, menemukan kata-kata yang dominan
-Dalam implementasinya, digunakan IndoBERT, yaitu adaptasi dari BERT yang telah dilatih secara khusus pada data berbahasa Indonesia.
-Model yang digunakan adalah indobenchmark/indobert-base-p1. Model ini kemudian disesuaikan (fine-tuned) menggunakan dataset ulasan untuk menghasilkan prediksi sentimen yang relevan.
+🏦 This project performs sentiment analysis on user reviews of the *balé by BTN* application, scraped from *Google Play Store*. The model used is indobenchmark/indobert-base-p1, which was fine-tuned on the review dataset to generate relevant sentiment predictions and identify the most frequently occurring words in both positive and negative reviews.
 
 ## Features
 - `reviewId`: unique id for each review.
